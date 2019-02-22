@@ -2,14 +2,58 @@ body{
     background-color:rgb(178, 221, 247);
 }
 
-li{
+/*nav*/
+ul {
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	margin-bottom: 20px; /* space between header and content */
+	background-color: #333;
+  }
+  
+  li {
+	float: left;
+  }
+  
+  li a {
+	display: block;
+	color: white;
+	text-align: left;
+	padding: 14px 16px;
 	text-decoration: none;
-	display:inline;
-	background-color: rgb(161, 201, 224);
-	color: rgb(255, 255, 255);
-	
-}
-.upperCase{
-	text-transform: uppercase
+  }
 
+.current{text-transform: uppercase; 
+	background-color: rgba(31, 121, 238, 0.418);
+	color: white;
+}
+
+.footer {
+    background-color: #333;
+    color: #eeeeee;
+    border-top: 1px solid white;
+    height: 60px;  /* footer height */
+    padding-top: 20px;
+    display: block;
+    margin-top: 20px; /* space between content and footer */
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+}
+
+/*images */
+
+.profile_responsive{
+	max-width: 70%;
+	max-height: 70%;
+}
+
+.ala_logo_responsive{
+	max-width: 70%;
+	max-height: 70%;
+}
+
+.reserach_responsive{
+	max-width: 70%;
+	max-height: 70%;
 }
