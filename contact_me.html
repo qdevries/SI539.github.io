@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- links css -->
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- links font and icon -->
+    <link href="https://fonts.googleapis.com/css?family=Hind|Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<title>Innovation in Action</title>
+</head>     <!-- end of head -->
+
+<body>
+    <a class="skip-main" href="#main">Skip to main content</a>
+    <header>
+        <nav>
+            <ul>
+                <li><a href= "index.html">About</a></li>
+                <li><a href= "ala_designjam.html"> Innovation in Action</a></li>
+                <li><a href= "contextual_inquiry.html">Contextual Inquiry</a></li>
+                <li><a href= "research.html" >Research</a></li>
+                <li><a href= "contact_me.html" class="current">Contact Me</a>
+            </ul>
+        </nav>
+    </header>    <!-- end of header nav -->
+
+<h1>Contact Me</h1>
+    <form>
+        First name:<br>
+        <input type="text" name="firstname">
+        <br> Last name:<br>
+        <input type="text" name="lastname">
+        <br><br>
+        Email: must contain an @ sign to be accepted<br>
+        <input type="text" name="email" value="Mickey">
+        <br>
+
+        <button onclick="ty_popup()">Sucess</button>
+
+    <script>
+    function validateForm() {
+  var x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+    
+    function ty_popup() {
+    alert("Thank you, I will be in touch soon!");
+    }
+    </script>
+
+    </form> 
+    
+    <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+    
+    </body>
+
+
+https://formspree.io/
+
+
+
+    <main>  
+    <p id="main" tabindex="-1"></p> 
+    <!--tab through content-->
+
+</main>
+
+
+
+</html>
